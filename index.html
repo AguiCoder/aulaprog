@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-container">
+            <form class="formulario">
+                <div class="input-box">
+                    <label for="nome">Nome: </label>
+                    <input id="nome" type="text" class="input-texto">
+                </div>
+                <div class="input-box">
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input id="sobrenome" type="text" class="input-texto">
+                </div>
+                <div class="input-box">
+                    <label for="senha">Senha: </label>
+                    <input id="senha" type="password" class="input-texto">
+                </div>
+                <div class="input-box">
+                    <label for="telefone">Telefone: </label>
+                    <input id="telefone" type="tel" class="input-texto">
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" class="input-texto">
+                </div>
+                <div class="button-container">
+                    <button onclick="enviar()" type="button">Cadastro</button>
+                </div>
+            </form>
+        </div>
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                    <tr class="table-row">
+                        <th class="table-header">Nome</th>
+                        <th class="table-header">Sobrenome</th>
+                        <th class="table-header">Telefone</th>
+                        <th class="table-header">Email</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>
